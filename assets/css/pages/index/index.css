@@ -1,0 +1,92 @@
+.sectionUm {
+  position: relative;
+  height: 100vh;
+  background-color: black;
+  background-image: url(/assets/images/pages/sectionUm-index.jpg);
+  background-size: cover;
+}
+.sectionUm header {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85px;
+  padding: 0 80px;
+}
+.sectionUm header p.nomeSite {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 50px;
+}
+.sectionUm header nav {
+  display: flex;
+  gap: 25px;
+}
+.sectionUm header nav a {
+  text-decoration: none;
+  color: white;
+}
+.sectionUm .conteudo {
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+}
+.sectionUm .conteudo h1 {
+  font-family: sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 75px;
+}
+.sectionUm .conteudo p {
+  font-size: 20px;
+}
+.sectionUm .conteudo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.sectionUm .conteudo a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+
+.sectionDois {
+  position: relative;
+  height: 100vh;
+  padding: 10px 80px;
+}
+.sectionDois h2 {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDois.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;;AAKZ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;;ACnEhB;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACRR;EACI;;;ACDJ;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22index.css%22%7D */
