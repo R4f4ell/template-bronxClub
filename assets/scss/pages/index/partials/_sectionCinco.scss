@@ -1,0 +1,24 @@
+.sectionCinco{    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 80px;
+    height: 360px;
+
+        h2{
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            height: 50px;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+}

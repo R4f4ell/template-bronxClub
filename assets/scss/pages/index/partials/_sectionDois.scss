@@ -1,11 +1,66 @@
 .sectionDois{
     position: relative;
-    height: 100vh;
     padding: 10px 80px;
+    padding: 0 80px;
+    margin-top: 100px;
 
     h2{
-        margin-top: 40px;
+        margin-bottom: 8%;
         font-size: 50px;
         font-weight: 900;
     }
+
+    .centro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .cardio{
+            margin-bottom: 100px;
+            p{
+                font-size: 25px;
+                font-weight: 1000;
+            }
+        }
+
+        .airYoga{
+            p{
+                font-size: 25px;
+                font-weight: 1000;   
+            }
+        }
+
+        .lifting{
+            p{
+                font-size: 25px;
+                font-weight: 1000;   
+            }
+        }
+
+        .pressBack{
+            p{
+                font-size: 25px;
+                font-weight: 1000;   
+            }
+        }
+    }
+
+    .button-sectionDois{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 7% 0;
+
+        a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 50px;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        }
+    }
+
 }

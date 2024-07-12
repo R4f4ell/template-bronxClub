@@ -1,3 +1,21 @@
-p{
-    font-family: sans-serif;
+h1, h2, p{
+    font-family: 'DM Sans';
+}
+
+a{
+    font-family: 'DM Sans';
+    background-color: #FF1010;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #ff1010b9;
+    }
+}
+
+.sectionDois{
+    img{
+        width: 490px;
+        height: 400px;
+        background-size: cover;
+    }
 }

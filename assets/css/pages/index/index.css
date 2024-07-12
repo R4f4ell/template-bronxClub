@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
 .sectionUm {
   position: relative;
   height: 100vh;
@@ -15,7 +16,7 @@
 }
 .sectionUm header p.nomeSite {
   color: white;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 20px;
   margin-right: 50px;
 }
@@ -24,13 +25,14 @@
   gap: 25px;
 }
 .sectionUm header nav a {
+  background-color: transparent;
   text-decoration: none;
   color: white;
 }
 .sectionUm .conteudo {
   position: absolute;
   height: 100%;
-  width: 70%;
+  width: 80%;
   padding-left: 80px;
   display: flex;
   flex-direction: column;
@@ -51,6 +53,98 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.sectionDois {
+  position: relative;
+  padding: 10px 80px;
+  padding: 0 80px;
+  margin-top: 100px;
+}
+.sectionDois h2 {
+  margin-bottom: 8%;
+  font-size: 50px;
+  font-weight: 900;
+}
+.sectionDois .centro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sectionDois .centro .cardio {
+  margin-bottom: 100px;
+}
+.sectionDois .centro .cardio p {
+  font-size: 25px;
+  font-weight: 1000;
+}
+.sectionDois .centro .airYoga p {
+  font-size: 25px;
+  font-weight: 1000;
+}
+.sectionDois .centro .lifting p {
+  font-size: 25px;
+  font-weight: 1000;
+}
+.sectionDois .centro .pressBack p {
+  font-size: 25px;
+  font-weight: 1000;
+}
+.sectionDois .button-sectionDois {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 7% 0;
+}
+.sectionDois .button-sectionDois a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.sectionTres {
+  background-color: black;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+}
+.sectionTres .conteudoSectionTres {
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70%;
+  width: 40%;
+}
+.sectionTres .conteudoSectionTres .divH2 h2 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.sectionTres .conteudoSectionTres .divParagrafo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sectionTres .conteudoSectionTres .divParagrafo p {
+  text-align: justify;
+}
+.sectionTres .conteudoSectionTres a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: red;
   width: 200px;
   height: 50px;
@@ -58,23 +152,122 @@
   border-radius: 5px;
   text-decoration: none;
 }
-.sectionUm .conteudo a:hover {
+.sectionTres .conteudoSectionTres a:hover {
   background-color: rgba(255, 0, 0, 0.849);
 }
+.sectionTres .imgSectionTres {
+  height: 100%;
+}
+.sectionTres .imgSectionTres img {
+  height: 100%;
+  width: 600px;
+}
 
-.sectionDois {
+.sectionQuatro {
+  background-color: #1E1E1E;
+  color: white;
   position: relative;
-  height: 100vh;
-  padding: 10px 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
 }
-.sectionDois h2 {
-  margin-top: 40px;
+.sectionQuatro .conteudoSectionQuatro {
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70%;
+  width: 40%;
+}
+.sectionQuatro .conteudoSectionQuatro .divH2 h2 {
   font-size: 50px;
-  font-weight: 900;
+  font-weight: bolder;
+}
+.sectionQuatro .conteudoSectionQuatro .divParagrafo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sectionQuatro .conteudoSectionQuatro .divParagrafo p {
+  text-align: justify;
+}
+.sectionQuatro .conteudoSectionQuatro a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.sectionQuatro .imgSectionQuatro img {
+  height: 680px;
+  width: 600px;
 }
 
-p {
-  font-family: sans-serif;
+.sectionCinco {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 80px;
+  height: 360px;
+}
+.sectionCinco h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.sectionCinco a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.sectionSeis {
+  height: 450px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+.sectionSeis .divWorking {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sectionSeis .divAdress {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  gap: 30px;
+}
+
+h1, h2, p {
+  font-family: "DM Sans";
+}
+
+a {
+  font-family: "DM Sans";
+  background-color: #FF1010;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: rgba(255, 16, 16, 0.7254901961);
+}
+
+.sectionDois img {
+  width: 490px;
+  height: 400px;
+  background-size: cover;
 }
 
 * {
@@ -84,9 +277,4 @@ p {
   box-sizing: border-box;
 }
 
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
-
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDois.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;;AAKZ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;;ACnEhB;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACRR;EACI;;;ACDJ;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22index.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDois.scss%22,%22../../../scss/pages/index/partials/_sectionTres.scss%22,%22../../../scss/pages/index/partials/_sectionQuatro.scss%22,%22../../../scss/pages/index/partials/_sectionCinco.scss%22,%22../../../scss/pages/index/partials/_sectionSeis.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAKZ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AChEZ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAEA;EACI;;AACA;EACI;EACA;;AAKJ;EACI;EACA;;AAKJ;EACI;EACA;;AAKJ;EACI;EACA;;AAKZ;EACI;EACA;EACA;EACA;;AAEA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AC7DR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAKZ;EACI;;AACA;EACI;EACA;;;ACvDZ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAKJ;EACI;EACA;;;AClDZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACrBZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AClBR;EACI;;;AAGJ;EACI;EACA;EACA;;AAEA;EACI;;;AAKJ;EACI;EACA;EACA;;;AClBR;EACI;EACA;EACA;EACA%22,%22file%22:%22index.css%22%7D */

@@ -1,5 +1,21 @@
-p {
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
+h1, h2, p {
+  font-family: "DM Sans";
+}
+
+a {
+  font-family: "DM Sans";
+  background-color: #FF1010;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: rgba(255, 16, 16, 0.7254901961);
+}
+
+.sectionDois img {
+  width: 490px;
+  height: 400px;
+  background-size: cover;
 }
 
 * {
@@ -9,9 +25,4 @@ p {
   box-sizing: border-box;
 }
 
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
-
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../scss/global/_elements.scss%22,%22../../scss/global/_normalize.scss%22,%22../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;;;ACDJ;EACI;EACA;EACA;EACA;;;ACJJ;AAAA;AAAA;AAAA%22,%22file%22:%22global.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../scss/global/_fonts.scss%22,%22../../scss/global/_elements.scss%22,%22../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;;;AAGJ;EACI;EACA;EACA;;AAEA;EACI;;;AAKJ;EACI;EACA;EACA;;;AClBR;EACI;EACA;EACA;EACA%22,%22file%22:%22global.css%22%7D */
