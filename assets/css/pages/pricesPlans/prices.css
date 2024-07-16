@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
+header {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85px;
+  padding: 0 80px;
+}
+header .titulo {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 50px;
+}
+header nav {
+  display: flex;
+  gap: 25px;
+}
+header nav a {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header nav .pricesPlans {
+  text-decoration: underline;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  padding: 100px 80px;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.sectionUm {
+  padding: 100px 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.sectionUm .basic, .sectionUm .unlimited {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 45%;
+  padding: 0 80px;
+}
+.sectionUm .basic .preco, .sectionUm .unlimited .preco {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionUm .basic .preco p, .sectionUm .unlimited .preco p {
+  font-size: 45px;
+  font-weight: 1000;
+}
+.sectionUm .basic .preco p:nth-child(2), .sectionUm .unlimited .preco p:nth-child(2) {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.sectionDois {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 80px;
+  height: 360px;
+}
+.sectionDois h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.sectionDois a {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.sectionDois a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+
+.sectionTres {
+  height: 450px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+.sectionTres .divWorking {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sectionTres .divAdress {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  gap: 30px;
+}
+
+h1, h2, p, h3 {
+  font-family: "DM Sans";
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  background-color: #FF1010;
+}
+
+img {
+  width: 490px;
+  height: 400px;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/pricesPlans/partials/_header.scss%22,%22../../../scss/pages/pricesPlans/partials/_sectionUm.scss%22,%22../../../scss/pages/pricesPlans/partials/_sectionDois.scss%22,%22../../../scss/pages/pricesPlans/partials/_sectionTres.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;EACA;;AAGA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;;;ACjCZ;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;EACA;;AAEA;EACI;EACA,aACA;;;ACjCpB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACpBhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AClBR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AChBJ;EACI;EACA;EACA;EACA%22,%22file%22:%22prices.css%22%7D */

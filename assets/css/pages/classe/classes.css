@@ -32,15 +32,14 @@ header nav .classes {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
   background-color: black;
-  padding: 0 80px;
+  padding: 0 80px 30px 80px;
 }
 main h1 {
   color: white;
-  font-size: 50px;
-  margin: 10% 0;
+  padding: 100px 80px;
+  font-size: 60px;
+  font-weight: 900;
 }
 
 .mainUm {
@@ -132,7 +131,7 @@ main h1 {
   gap: 30px;
 }
 
-h1, h2, p {
+h1, h2, p, h3 {
   font-family: "DM Sans";
 }
 
@@ -158,4 +157,4 @@ img {
   box-sizing: border-box;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/classe/partials/_header.scss%22,%22../../../scss/pages/classe/partials/_mainGeral.scss%22,%22../../../scss/pages/classe/partials/_mainUm.scss%22,%22../../../scss/pages/classe/partials/_mainDois.scss%22,%22../../../scss/pages/classe/partials/_mainTres.scss%22,%22../../../scss/pages/classe/partials/_mainQuatro.scss%22,%22../../../scss/pages/classe/partials/_sectionUm.scss%22,%22../../../scss/pages/classe/partials/_sectionDois.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;EACA;;AAGA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;;;ACjCZ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACRR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACpBhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AClBR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AChBJ;EACI;EACA;EACA;EACA%22,%22file%22:%22classes.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/classe/partials/_header.scss%22,%22../../../scss/pages/classe/partials/_mainUm.scss%22,%22../../../scss/pages/classe/partials/_mainDois.scss%22,%22../../../scss/pages/classe/partials/_mainTres.scss%22,%22../../../scss/pages/classe/partials/_mainQuatro.scss%22,%22../../../scss/pages/classe/partials/_sectionUm.scss%22,%22../../../scss/pages/classe/partials/_sectionDois.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;EACA;;AAGA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;;;ACjCZ;EACI;EACA;;AACA;EACI;EACA;EACA;EACA;;;AAGR;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;;;AClBR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACpBhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AClBR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AChBJ;EACI;EACA;EACA;EACA%22,%22file%22:%22classes.css%22%7D */
