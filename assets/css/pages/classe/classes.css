@@ -131,7 +131,7 @@ main h1 {
   gap: 30px;
 }
 
-h1, h2, p, h3 {
+h1, h2, p, h3, label, input, textarea, button {
   font-family: "DM Sans";
 }
 

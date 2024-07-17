@@ -1,0 +1,25 @@
+.sectionDois{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+
+    .containerTres, .containerQuatro{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 45%;
+        padding: 0 80px;
+        
+        .dia{
+            display: flex;
+            justify-content: space-between;
+
+            p{
+                font-size: 45px;
+                font-weight: 1000;
+            }
+        }
+    }
+}

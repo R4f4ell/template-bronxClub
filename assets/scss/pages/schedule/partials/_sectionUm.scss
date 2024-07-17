@@ -1,0 +1,33 @@
+h1{
+    background-color: black;
+    color: white;
+    padding: 100px 80px;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.sectionUm{
+    padding: 100px 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .containerUm, .containerDois{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 45%;
+        padding: 0 80px;
+        
+        .dia{
+            display: flex;
+            justify-content: space-between;
+
+            p{
+                font-size: 45px;
+                font-weight: 1000;
+            }
+        }
+    }
+}
