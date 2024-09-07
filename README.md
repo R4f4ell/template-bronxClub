@@ -5,4 +5,4 @@
  
  Além de ferramentas, como: Tiny.png (Compressor de imagens) deixando-as mais leves, Pixlr (Editor de imagens)
  
- Finalização: Comprimir código CSS para uma carregamento do site de forma mais rápida.
+ Finalização: Comprimir código CSS para uma carregamento do site de forma mais rápida
