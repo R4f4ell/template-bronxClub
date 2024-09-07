@@ -1,0 +1,25 @@
+@use '../../../../global/variables';
+
+@media screen and (max-width:540px) {
+    .sectionUm{
+        position: relative;
+        background-image: url(/assets/images/pages/responsive/index/sectionUmIndexResponsive.webp);
+        background-position: center right;
+        
+        .conteudo{
+            width: 100%;
+            padding: 0 15px 0px 15px;
+
+            h1{
+                width: 80%;
+                line-height: 40px;
+                font-size: 30px;
+            }
+
+            p{
+                width: 100%;
+                font-size: 19px;
+            }
+        }
+    }
+}
