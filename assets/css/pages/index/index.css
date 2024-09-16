@@ -68,31 +68,57 @@ header nav a:hover {
 }
 
 .sectionDois {
-  position: relative;
-  padding: 10px 80px;
-  padding: 0 80px;
   margin-top: 100px;
 }
 .sectionDois h2 {
   margin-bottom: 8%;
+  text-align: center;
   font-size: 50px;
   font-weight: 900;
 }
 .sectionDois .centro {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: space-between;
+}
+.sectionDois .centro p {
+  font-weight: 800;
   font-size: 25px;
-  font-weight: 1000;
+  margin-bottom: 5rem;
 }
 .sectionDois .centro .cardio {
-  margin-bottom: 100px;
+  background-image: url(/assets/images/pages/index/imgCardio.webp);
+  background-size: cover;
+  width: 490px;
+  height: 400px;
+  border-radius: 4px;
+}
+.sectionDois .centro .AirYoga {
+  background-image: url(/assets/images/pages/index/imgAirYoga.webp);
+  background-size: cover;
+  width: 490px;
+  height: 400px;
+  border-radius: 4px;
+}
+.sectionDois .centro .Lifting {
+  background-image: url(/assets/images/pages/index/imgLifting.webp);
+  background-size: cover;
+  width: 490px;
+  height: 400px;
+  border-radius: 4px;
+}
+.sectionDois .centro .pressBack {
+  background-image: url(/assets/images/pages/index/imgPressEBack.jpg);
+  background-size: cover;
+  width: 490px;
+  height: 400px;
+  border-radius: 4px;
 }
 .sectionDois .button-sectionDois {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 7% 0;
+  margin-bottom: 80px;
 }
 .sectionDois .button-sectionDois a {
   width: 200px;
@@ -283,5 +309,79 @@ img {
     font-size: 19px;
   }
 }
+@media screen and (max-width: 540px) {
+  .sectionDois h2 {
+    font-size: 40px;
+  }
+  .sectionDois .centro .cardio {
+    background-image: url(/assets/images/pages/responsive/index/imgCardioResponsive.webp);
+    width: 350px;
+    height: 500px;
+  }
+  .sectionDois .centro .airYoga {
+    width: 350px;
+    height: 500px;
+  }
+  .sectionDois .centro .lifting {
+    width: 350px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .sectionTres {
+    background-color: transparent;
+    background-image: url(/assets/images/pages/responsive/index/imgAboutBronxResponsive.webp);
+    background-size: cover;
+  }
+  .sectionTres .conteudoSectionTres {
+    width: 100%;
+    padding-left: 0;
+  }
+  .sectionTres .conteudoSectionTres .divH2 {
+    text-align: center;
+  }
+  .sectionTres .conteudoSectionTres .divParagrafo {
+    padding: 0 15px;
+  }
+  .sectionTres .conteudoSectionTres .divParagrafo p {
+    font-size: 17px;
+  }
+  .sectionTres .conteudoSectionTres a {
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgSectionTres {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .sectionQuatro {
+    background-image: url(/assets/images/pages/responsive/index/imgClassesResponsive.webp);
+    background-size: cover;
+    background-position: center center;
+  }
+  .sectionQuatro .conteudoSectionQuatro {
+    padding-right: 0;
+    width: 100%;
+  }
+  .sectionQuatro .conteudoSectionQuatro .divH2 {
+    text-align: center;
+  }
+  .sectionQuatro .conteudoSectionQuatro .divParagrafo {
+    padding: 0 15px;
+  }
+  .sectionQuatro .conteudoSectionQuatro .divParagrafo p {
+    font-size: 17px;
+  }
+  .sectionQuatro .conteudoSectionQuatro a {
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionQuatro .imgSectionQuatro img {
+    display: none;
+  }
+}
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDois.scss%22,%22../../../scss/pages/index/partials/_sectionTres.scss%22,%22../../../scss/pages/index/partials/_sectionQuatro.scss%22,%22../../../scss/pages/index/partials/_sectionCinco.scss%22,%22../../../scss/pages/index/partials/_sectionSeis.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionUmResponsive.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;;AAMhB;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACxEhB;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACA;EACA;EACA;EACA;;AAEI;EACI;;;ACrChB;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAKZ;EACI;;AACA;EACI;EACA;;;ACnDZ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAMR;EACI;EACA;;;AClDZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACpBhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AClBR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AChBJ;EACI;EACA;EACA;EACA;;;ACFJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;;EAEA;IACI;IACA;IACA;;EAGJ;IACI;IACA%22,%22file%22:%22index.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDois.scss%22,%22../../../scss/pages/index/partials/_sectionTres.scss%22,%22../../../scss/pages/index/partials/_sectionQuatro.scss%22,%22../../../scss/pages/index/partials/_sectionCinco.scss%22,%22../../../scss/pages/index/partials/_sectionSeis.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionDoisResponsive.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionTresResponsive.scss%22,%22../../../scss/pages/responsive/indexResponsive/partials/_sectionQuatroResponsive.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;;AAMhB;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACtEhB;EACI;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACA;EACA;EACA;EACA;;AAEI;EACI;;;AClEhB;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAKZ;EACI;;AACA;EACI;EACA;;;ACnDZ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;;AAIR;EACI;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAMR;EACI;EACA;;;AClDZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACpBhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AClBR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AChBJ;EACI;EACA;EACA;EACA;;;ACFJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;;EAEA;IACI;IACA;IACA;;EAGJ;IACI;IACA;;;AClBhB;EAEQ;IACI;;EAIA;IACI;IACA;IACA;;EAGJ;IACI;IACA;;EAGJ;IACI;IACA;;;ACpBhB;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;;EAEA;IACI;;EAGJ;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;;EAKZ;IACI;;;AC/BR;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;;EAEA;IACI;;EAGJ;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;;EAKJ;IACI%22,%22file%22:%22index.css%22%7D */

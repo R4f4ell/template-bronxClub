@@ -1,0 +1,27 @@
+@use '../../../../global/variables';
+
+@media screen and (max-width:540px) {
+    .sectionDois{
+        h2{
+            font-size: 40px;
+        }
+
+        .centro{
+            .cardio{
+                background-image: url(/assets/images/pages/responsive/index/imgCardioResponsive.webp);
+                width: 350px;
+                height: 500px;
+            }
+
+            .airYoga{
+                width: 350px;
+                height: 500px;
+            }
+
+            .lifting{
+                width: 350px;
+                height: 500px;
+            }
+        }
+    }
+}

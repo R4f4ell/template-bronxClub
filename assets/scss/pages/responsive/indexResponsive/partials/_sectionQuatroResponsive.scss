@@ -1,0 +1,38 @@
+@use '../../../../global/variables';
+
+@media screen and (max-width:540px){
+    .sectionQuatro{
+        background-image: url(/assets/images/pages/responsive/index/imgClassesResponsive.webp);
+        background-size: cover;
+        background-position: center center;
+
+        .conteudoSectionQuatro{
+            padding-right: 0;
+            width: 100%;
+
+            .divH2{
+                text-align: center;
+            }
+
+            .divParagrafo{
+                padding: 0 15px;
+
+                p{
+                    font-size: 17px;
+                }
+            }
+
+            a{
+                margin-left: 15px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .imgSectionQuatro{
+            img{
+                display: none;
+            }
+        }
+    }   
+}

@@ -1,0 +1,36 @@
+@use '../../../../global/variables';
+
+@media screen and (max-width:540px){
+    .sectionTres{
+        background-color: transparent;
+        background-image: url(/assets/images/pages/responsive/index/imgAboutBronxResponsive.webp);
+        background-size: cover;
+
+        .conteudoSectionTres{
+            width: 100%;
+            padding-left: 0;
+
+            .divH2{
+                text-align: center;
+            }
+
+            .divParagrafo{
+                padding: 0 15px;
+
+                p{
+                    font-size: 17px;
+                }
+            }
+
+            a{
+                margin-left: 15px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .imgSectionTres{
+        display: none;
+    }
+}

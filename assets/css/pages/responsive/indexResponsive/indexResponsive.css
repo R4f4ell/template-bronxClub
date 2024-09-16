@@ -19,6 +19,80 @@
     font-size: 19px;
   }
 }
+@media screen and (max-width: 540px) {
+  .sectionDois h2 {
+    font-size: 40px;
+  }
+  .sectionDois .centro .cardio {
+    background-image: url(/assets/images/pages/responsive/index/imgCardioResponsive.webp);
+    width: 350px;
+    height: 500px;
+  }
+  .sectionDois .centro .airYoga {
+    width: 350px;
+    height: 500px;
+  }
+  .sectionDois .centro .lifting {
+    width: 350px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .sectionTres {
+    background-color: transparent;
+    background-image: url(/assets/images/pages/responsive/index/imgAboutBronxResponsive.webp);
+    background-size: cover;
+  }
+  .sectionTres .conteudoSectionTres {
+    width: 100%;
+    padding-left: 0;
+  }
+  .sectionTres .conteudoSectionTres .divH2 {
+    text-align: center;
+  }
+  .sectionTres .conteudoSectionTres .divParagrafo {
+    padding: 0 15px;
+  }
+  .sectionTres .conteudoSectionTres .divParagrafo p {
+    font-size: 17px;
+  }
+  .sectionTres .conteudoSectionTres a {
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgSectionTres {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .sectionQuatro {
+    background-image: url(/assets/images/pages/responsive/index/imgClassesResponsive.webp);
+    background-size: cover;
+    background-position: center center;
+  }
+  .sectionQuatro .conteudoSectionQuatro {
+    padding-right: 0;
+    width: 100%;
+  }
+  .sectionQuatro .conteudoSectionQuatro .divH2 {
+    text-align: center;
+  }
+  .sectionQuatro .conteudoSectionQuatro .divParagrafo {
+    padding: 0 15px;
+  }
+  .sectionQuatro .conteudoSectionQuatro .divParagrafo p {
+    font-size: 17px;
+  }
+  .sectionQuatro .conteudoSectionQuatro a {
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionQuatro .imgSectionQuatro img {
+    display: none;
+  }
+}
 h1, h2, p, h3, label, input, textarea, button {
   font-family: "DM Sans";
 }
@@ -45,4 +119,4 @@ img {
   box-sizing: border-box;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../../scss/global/_fonts.scss%22,%22../../../../scss/pages/responsive/indexResponsive/partials/_sectionUmResponsive.scss%22,%22../../../../scss/global/_elements.scss%22,%22../../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACER;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;;EAEA;IACI;IACA;IACA;;EAGJ;IACI;IACA;;;ACpBhB;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AChBJ;EACI;EACA;EACA;EACA%22,%22file%22:%22indexResponsive.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../../scss/global/_fonts.scss%22,%22../../../../scss/pages/responsive/indexResponsive/partials/_sectionUmResponsive.scss%22,%22../../../../scss/pages/responsive/indexResponsive/partials/_sectionDoisResponsive.scss%22,%22../../../../scss/pages/responsive/indexResponsive/partials/_sectionTresResponsive.scss%22,%22../../../../scss/pages/responsive/indexResponsive/partials/_sectionQuatroResponsive.scss%22,%22../../../../scss/global/_elements.scss%22,%22../../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACER;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;;EAEA;IACI;IACA;IACA;;EAGJ;IACI;IACA;;;AClBhB;EAEQ;IACI;;EAIA;IACI;IACA;IACA;;EAGJ;IACI;IACA;;EAGJ;IACI;IACA;;;ACpBhB;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;;EAEA;IACI;;EAGJ;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;;EAKZ;IACI;;;AC/BR;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;;EAEA;IACI;;EAGJ;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;;EAKJ;IACI;;;ACjChB;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AChBJ;EACI;EACA;EACA;EACA%22,%22file%22:%22indexResponsive.css%22%7D */
