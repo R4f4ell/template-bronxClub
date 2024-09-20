@@ -1,1 +1,174 @@
-@import"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap";header{background-color:#000;display:flex;justify-content:flex-start;align-items:center;height:85px;padding:0 80px}header .titulo{background-color:rgba(0,0,0,0);color:#fff;text-decoration:none;font-weight:800;font-size:20px;margin-right:50px}header nav{display:flex;gap:25px}header nav a{text-decoration:none;background-color:rgba(0,0,0,0);color:#fff}header nav a:hover{text-decoration:underline}header nav .schedule{text-decoration:underline}h1{background-color:#000;color:#fff;padding:100px 80px;font-size:60px;font-weight:900}.sectionUm{padding:100px 0;background-color:#000;color:#fff;display:flex;justify-content:space-between}.sectionUm .containerUm,.sectionUm .containerDois{display:flex;flex-direction:column;gap:30px;width:45%;padding:0 80px}.sectionUm .containerUm .dia,.sectionUm .containerDois .dia{display:flex;justify-content:space-between}.sectionUm .containerUm .dia p,.sectionUm .containerDois .dia p{font-size:45px;font-weight:1000}.sectionDois{background-color:#000;color:#fff;display:flex;justify-content:space-between;padding-bottom:200px}.sectionDois .containerTres,.sectionDois .containerQuatro{display:flex;flex-direction:column;gap:30px;width:45%;padding:0 80px}.sectionDois .containerTres .dia,.sectionDois .containerQuatro .dia{display:flex;justify-content:space-between}.sectionDois .containerTres .dia p,.sectionDois .containerQuatro .dia p{font-size:45px;font-weight:1000}.sectionTres{display:flex;flex-direction:column;gap:30px;justify-content:center;padding:0 80px;height:360px}.sectionTres h2{font-size:40px;font-weight:bolder}.sectionTres a{width:200px;height:50px;color:#fff;text-decoration:none}.sectionTres a:hover{background-color:rgba(255,0,0,.849)}.sectionQuatro{height:450px;background-color:#000;color:#fff;display:flex;align-items:center;padding-left:80px}.sectionQuatro .divWorking{display:flex;flex-direction:column;gap:30px}.sectionQuatro .divAdress{display:flex;flex-direction:column;margin-left:30%;gap:30px}h1,h2,p,h3,label,input,textarea,button{font-family:"DM Sans"}a{display:flex;justify-content:center;align-items:center;border-radius:5px;font-family:"DM Sans";background-color:#ff1010}img{width:490px;height:400px;background-size:cover}*{margin:0;padding:0;border:none;box-sizing:border-box}/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/schedule/partials/_header.scss%22,%22../../../scss/pages/schedule/partials/_sectionUm.scss%22,%22../../../scss/pages/schedule/partials/_sectionDois.scss%22,%22../../../scss/pages/schedule/partials/_sectionTres.scss%22,%22../../../scss/pages/schedule/partials/_sectionQuatro.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ,wGCCJ,sBACA,aACA,2BACA,mBACA,YACA,eAGA,eACI,+BACA,WACA,qBACA,gBACA,eACA,kBAGJ,WACI,aACA,SAEA,aACI,qBACA,+BACA,WAEA,mBACI,0BAIR,qBACI,0BCjCZ,GACI,sBACA,WACA,mBACA,eACA,gBAGJ,WACI,gBACA,sBACA,WACA,aACA,8BAEA,kDACI,aACA,sBACA,SACA,UACA,eAEA,4DACI,aACA,8BAEA,gEACI,eACA,iBC5BhB,aACI,sBACA,WACA,aACA,8BACA,qBAEA,0DACI,aACA,sBACA,SACA,UACA,eAEA,oEACI,aACA,8BAEA,wEACI,eACA,iBCpBhB,aACI,aACA,sBACA,SACA,uBACA,eACA,aAEI,gBACI,eACA,mBAGJ,eACI,YACA,YACA,WACA,qBAEA,qBACI,oCCpBhB,eACI,aACA,sBACA,WACA,aACA,mBACA,kBAEA,2BACI,aACA,sBACA,SAGJ,0BACI,aACA,sBACA,gBACA,SClBR,uCACI,sBAGJ,EACI,aACA,uBACA,mBACA,kBACA,sBACA,yBAGJ,IACI,YACA,aACA,sBChBJ,EACI,SACA,UACA,YACA%22,%22file%22:%22schedule.css%22%7D */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
+h1 {
+  background-color: black;
+  color: white;
+  padding: 100px 80px;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.sectionUm {
+  padding: 100px 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.sectionUm .containerUm, .sectionUm .containerDois {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 45%;
+  padding: 0 80px;
+}
+.sectionUm .containerUm .dia, .sectionUm .containerDois .dia {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionUm .containerUm .dia p, .sectionUm .containerDois .dia p {
+  font-size: 45px;
+  font-weight: 1000;
+}
+
+.sectionDois {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 200px;
+}
+.sectionDois .containerTres, .sectionDois .containerQuatro {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 45%;
+  padding: 0 80px;
+}
+.sectionDois .containerTres .dia, .sectionDois .containerQuatro .dia {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionDois .containerTres .dia p, .sectionDois .containerQuatro .dia p {
+  font-size: 45px;
+  font-weight: 1000;
+}
+
+.sectionTres {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 80px;
+  height: 360px;
+}
+.sectionTres h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.sectionTres a {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.sectionTres a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+
+h1, h2, p, h3, label, input, textarea, button {
+  font-family: "DM Sans";
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  background-color: #FF1010;
+}
+
+img {
+  width: 490px;
+  height: 400px;
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85px;
+  padding: 0 80px;
+}
+header .titulo {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 50px;
+}
+header .titulo:hover {
+  text-decoration: none;
+}
+header nav {
+  display: flex;
+  gap: 25px;
+}
+header nav a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  height: 450px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+footer .divWorking {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .divAdress {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  gap: 30px;
+}
+
+@media screen and (max-width: 540px) {
+  footer {
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    height: 250px;
+    padding-left: 20px;
+  }
+  footer .divWorking {
+    gap: 10px;
+  }
+  footer .divAdress {
+    margin-left: 0;
+    gap: 10px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/schedule/partials/_sectionUm.scss%22,%22../../../scss/pages/schedule/partials/_sectionDois.scss%22,%22../../../scss/pages/schedule/partials/_sectionTres.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;EACA;;;AC5BhB;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;EACA;;;ACpBhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACpBhB;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;;AAMhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;AC/FZ;EACI;EACA;EACA;EACA%22,%22file%22:%22schedule.css%22%7D */

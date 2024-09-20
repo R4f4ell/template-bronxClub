@@ -16,3 +16,84 @@ img{
     height: 400px;
     background-size: cover;
 }
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85px;
+    padding: 0 80px;
+
+    .titulo{
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 20px;
+        margin-right: 50px;
+
+        &:hover{
+            text-decoration: none;
+        }
+    }
+
+    nav{
+        display: flex;
+        gap: 25px;
+
+        a{
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+footer{
+    height: 450px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+
+    .divWorking{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .divAdress{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        gap: 30px;
+    }
+
+}
+
+@media screen and (max-width:540px){
+    footer{
+        padding-left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        height: 250px;
+        padding-left: 20px;
+
+        .divWorking{
+            gap: 10px;
+        }
+
+        .divAdress{
+            margin-left: 0;
+            gap: 10px;
+        }
+    }
+}

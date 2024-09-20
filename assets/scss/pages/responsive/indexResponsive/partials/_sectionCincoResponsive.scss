@@ -1,0 +1,11 @@
+@use '../../../../global/variables';
+
+@media screen and (max-width:540px){
+    .sectionCinco{
+        padding: 0 15px;
+        
+        h2{
+            font-size: 25px;
+        }
+    }
+}

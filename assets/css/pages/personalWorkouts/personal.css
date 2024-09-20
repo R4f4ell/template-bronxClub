@@ -1,1 +1,252 @@
-@import"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap";header{background-color:#000;display:flex;justify-content:flex-start;align-items:center;height:85px;padding:0 80px}header .titulo{background-color:rgba(0,0,0,0);color:#fff;text-decoration:none;font-weight:800;font-size:20px;margin-right:50px}header nav{display:flex;gap:25px}header nav a{text-decoration:none;background-color:rgba(0,0,0,0);color:#fff}header nav a:hover{text-decoration:underline}header nav .personal{text-decoration:underline}h1{background-color:#000;color:#fff;padding:100px 80px;font-size:60px;font-weight:900}.sectionUm{background-color:#000;color:#fff;display:flex;justify-content:space-between;gap:60px;padding:0 80px}.sectionUm .conteudo-e-button{display:flex;flex-direction:column;justify-content:center;gap:20px;width:40%}.sectionUm .conteudo-e-button h3{font-size:30px;font-weight:1000}.sectionUm .conteudo-e-button .biografia{display:flex;flex-direction:column;gap:20px;text-align:justify}.sectionUm .conteudo-e-button .biografia p{font-size:17px}.sectionUm .conteudo-e-button a{width:200px;height:50px;color:#fff;text-decoration:none}.sectionUm .conteudo-e-button a:hover{background-color:rgba(255,0,0,.849)}.sectionUm .div-imagem img{height:700px}.sectionDois{background-color:#000;color:#fff;display:flex;justify-content:space-between;flex-direction:row-reverse;gap:60px;padding:0 80px}.sectionDois .conteudo-e-button{display:flex;flex-direction:column;justify-content:center;gap:20px;width:40%}.sectionDois .conteudo-e-button h3{font-size:30px;font-weight:1000}.sectionDois .conteudo-e-button .biografia{display:flex;flex-direction:column;gap:20px;text-align:justify}.sectionDois .conteudo-e-button .biografia p{font-size:17px}.sectionDois .conteudo-e-button a{width:200px;height:50px;color:#fff;text-decoration:none}.sectionDois .conteudo-e-button a:hover{background-color:rgba(255,0,0,.849)}.sectionDois .div-imagem img{height:700px}.sectionTres{background-color:#000;color:#fff;display:flex;justify-content:space-between;gap:60px;padding:0 80px}.sectionTres .conteudo-e-button{display:flex;flex-direction:column;justify-content:center;gap:20px;width:40%}.sectionTres .conteudo-e-button h3{font-size:30px;font-weight:1000}.sectionTres .conteudo-e-button .biografia{display:flex;flex-direction:column;gap:20px;text-align:justify}.sectionTres .conteudo-e-button .biografia p{font-size:17px}.sectionTres .conteudo-e-button a{width:200px;height:50px;color:#fff;text-decoration:none}.sectionTres .conteudo-e-button a:hover{background-color:rgba(255,0,0,.849)}.sectionTres .div-imagem img{height:700px}.sectionQuatro{display:flex;flex-direction:column;gap:30px;justify-content:center;padding:0 80px;height:360px}.sectionQuatro h2{font-size:40px;font-weight:bolder}.sectionQuatro a{width:200px;height:50px;color:#fff;text-decoration:none}.sectionQuatro a:hover{background-color:rgba(255,0,0,.849)}.sectionCinco{height:450px;background-color:#000;color:#fff;display:flex;align-items:center;padding-left:80px}.sectionCinco .divWorking{display:flex;flex-direction:column;gap:30px}.sectionCinco .divAdress{display:flex;flex-direction:column;margin-left:30%;gap:30px}h1,h2,p,h3,label,input,textarea,button{font-family:"DM Sans"}a{display:flex;justify-content:center;align-items:center;border-radius:5px;font-family:"DM Sans";background-color:#ff1010}img{width:490px;height:400px;background-size:cover}*{margin:0;padding:0;border:none;box-sizing:border-box}/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/personalWorkouts/partials/_header.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionUm.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionDois.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionTres.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionQuatro.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionCinco.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ,wGCCJ,sBACA,aACA,2BACA,mBACA,YACA,eAGA,eACI,+BACA,WACA,qBACA,gBACA,eACA,kBAGJ,WACI,aACA,SAEA,aACI,qBACA,+BACA,WAEA,mBACI,0BAIR,qBACI,0BCjCZ,GACI,sBACA,WACA,mBACA,eACA,gBAGJ,WACI,sBACA,WACA,aACA,8BACA,SACA,eAEA,8BACI,aACA,sBACA,uBACA,SACA,UAEA,iCACI,eACA,iBAGJ,yCACI,aACA,sBACA,SACA,mBAEA,2CACI,eAIR,gCACI,YACA,YACA,WACA,qBAEA,sCACI,oCAMR,2BACI,aCrDZ,aACI,sBACA,WACA,aACA,8BACA,2BACA,SACA,eAEA,gCACI,aACA,sBACA,uBACA,SACA,UAEA,mCACI,eACA,iBAGJ,2CACI,aACA,sBACA,SACA,mBAEA,6CACI,eAIR,kCACI,YACA,YACA,WACA,qBAEA,wCACI,oCAMR,6BACI,aC9CZ,aACI,sBACA,WACA,aACA,8BACA,SACA,eAEA,gCACI,aACA,sBACA,uBACA,SACA,UAEA,mCACI,eACA,iBAGJ,2CACI,aACA,sBACA,SACA,mBAEA,6CACI,eAIR,kCACI,YACA,YACA,WACA,qBAEA,wCACI,oCAMR,6BACI,aC7CZ,eACI,aACA,sBACA,SACA,uBACA,eACA,aAEI,kBACI,eACA,mBAGJ,iBACI,YACA,YACA,WACA,qBAEA,uBACI,oCCpBhB,cACI,aACA,sBACA,WACA,aACA,mBACA,kBAEA,0BACI,aACA,sBACA,SAGJ,yBACI,aACA,sBACA,gBACA,SClBR,uCACI,sBAGJ,EACI,aACA,uBACA,mBACA,kBACA,sBACA,yBAGJ,IACI,YACA,aACA,sBChBJ,EACI,SACA,UACA,YACA%22,%22file%22:%22personal.css%22%7D */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
+h1 {
+  background-color: black;
+  color: white;
+  padding: 100px 80px;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.sectionUm {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 0 80px;
+}
+.sectionUm .conteudo-e-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+}
+.sectionUm .conteudo-e-button h3 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+.sectionUm .conteudo-e-button .biografia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+.sectionUm .conteudo-e-button .biografia p {
+  font-size: 17px;
+}
+.sectionUm .conteudo-e-button a {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.sectionUm .conteudo-e-button a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+.sectionUm .div-imagem img {
+  height: 700px;
+}
+
+.sectionDois {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 60px;
+  padding: 0 80px;
+}
+.sectionDois .conteudo-e-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+}
+.sectionDois .conteudo-e-button h3 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+.sectionDois .conteudo-e-button .biografia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+.sectionDois .conteudo-e-button .biografia p {
+  font-size: 17px;
+}
+.sectionDois .conteudo-e-button a {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.sectionDois .conteudo-e-button a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+.sectionDois .div-imagem img {
+  height: 700px;
+}
+
+.sectionTres {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 0 80px;
+}
+.sectionTres .conteudo-e-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+}
+.sectionTres .conteudo-e-button h3 {
+  font-size: 30px;
+  font-weight: 1000;
+}
+.sectionTres .conteudo-e-button .biografia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+.sectionTres .conteudo-e-button .biografia p {
+  font-size: 17px;
+}
+.sectionTres .conteudo-e-button a {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.sectionTres .conteudo-e-button a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+.sectionTres .div-imagem img {
+  height: 700px;
+}
+
+.sectionQuatro {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 80px;
+  height: 360px;
+}
+.sectionQuatro h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.sectionQuatro a {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.sectionQuatro a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+
+h1, h2, p, h3, label, input, textarea, button {
+  font-family: "DM Sans";
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "DM Sans";
+  background-color: #FF1010;
+}
+
+img {
+  width: 490px;
+  height: 400px;
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85px;
+  padding: 0 80px;
+}
+header .titulo {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 50px;
+}
+header .titulo:hover {
+  text-decoration: none;
+}
+header nav {
+  display: flex;
+  gap: 25px;
+}
+header nav a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  height: 450px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+footer .divWorking {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .divAdress {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  gap: 30px;
+}
+
+@media screen and (max-width: 540px) {
+  footer {
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    height: 250px;
+    padding-left: 20px;
+  }
+  footer .divWorking {
+    gap: 10px;
+  }
+  footer .divAdress {
+    margin-left: 0;
+    gap: 10px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionUm.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionDois.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionTres.scss%22,%22../../../scss/pages/personalWorkouts/partials/_sectionQuatro.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAMR;EACI;;;ACrDZ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAMR;EACI;;;AC9CZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;EACA;EACA;;AAEA;EACI;;AAMR;EACI;;;AC7CZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACpBhB;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;;AAMhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;AC/FZ;EACI;EACA;EACA;EACA%22,%22file%22:%22personal.css%22%7D */
