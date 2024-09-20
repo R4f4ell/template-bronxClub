@@ -10,73 +10,15 @@ main h1 {
   font-weight: 900;
 }
 
-.mainUm {
+.mainConteudo {
   display: flex;
   justify-content: space-between;
   margin-bottom: 70px;
 }
-.mainUm p {
+.mainConteudo p {
   color: white;
   font-size: 25px;
   font-weight: 1000;
-}
-
-.mainDois {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 70px;
-}
-.mainDois p {
-  color: white;
-  font-size: 25px;
-  font-weight: 1000;
-}
-
-.mainTres {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 70px;
-}
-.mainTres p {
-  color: white;
-  font-size: 25px;
-  font-weight: 1000;
-}
-
-.mainQuatro {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 70px;
-}
-.mainQuatro p {
-  color: white;
-  font-size: 25px;
-  font-weight: 1000;
-}
-
-.sectionUm {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
-  padding: 0 80px;
-  height: 360px;
-}
-.sectionUm h2 {
-  font-size: 40px;
-  font-weight: bolder;
-}
-.sectionUm a {
-  width: 200px;
-  height: 50px;
-  color: white;
-  text-decoration: none;
-}
-.sectionUm a:hover {
-  background-color: rgba(255, 0, 0, 0.849);
 }
 
 h1, h2, p, h3, label, input, textarea, button {
@@ -130,6 +72,28 @@ header nav a:hover {
   text-decoration: underline;
 }
 
+.textEButoonPadraoDoSite {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 80px;
+  height: 360px;
+}
+.textEButoonPadraoDoSite h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.textEButoonPadraoDoSite a {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.textEButoonPadraoDoSite a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+
 footer {
   height: 450px;
   background-color: black;
@@ -151,6 +115,12 @@ footer .divAdress {
 }
 
 @media screen and (max-width: 540px) {
+  .textEButoonPadraoDoSite {
+    padding: 0 15px;
+  }
+  .textEButoonPadraoDoSite h2 {
+    font-size: 25px;
+  }
   footer {
     padding-left: 0;
     flex-direction: column;
@@ -175,4 +145,36 @@ footer .divAdress {
   box-sizing: border-box;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/classe/partials/_mainUm.scss%22,%22../../../scss/pages/classe/partials/_mainDois.scss%22,%22../../../scss/pages/classe/partials/_mainTres.scss%22,%22../../../scss/pages/classe/partials/_mainQuatro.scss%22,%22../../../scss/pages/classe/partials/_sectionUm.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;;AACA;EACI;EACA;EACA;EACA;;;AAGR;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;;;AClBR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACTR;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;ACpBhB;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;;AAMhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;AC/FZ;EACI;EACA;EACA;EACA%22,%22file%22:%22classes.css%22%7D */
+@media screen and (max-width: 540px) {
+  main {
+    padding: 0;
+    flex-direction: column;
+    align-self: center;
+  }
+  main h1 {
+    font-size: 45px;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .mainConteudo {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .mainConteudo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainConteudo div img {
+    width: 95%;
+  }
+  .mainConteudo div p {
+    margin-bottom: 90px;
+    margin-top: 5px;
+    align-self: start;
+    padding-left: 20px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/classe/partials/_mainConteudo.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/pages/responsive/classeResponsive/partials/_mainConteudoResponsive.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;;AACA;EACI;EACA;EACA;EACA;;;AAGR;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;;;AClBR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;;AAMhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;AAKhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;AChIZ;EACI;EACA;EACA;EACA;;;ACJJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;IACA;;EAIJ;IACI;IACA;IACA;;EAEA;IACI;IACA;IACA;;EACA;IACI;;EAEJ;IACI;IACA;IACA;IACA%22,%22file%22:%22classes.css%22%7D */

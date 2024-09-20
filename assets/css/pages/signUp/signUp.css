@@ -102,6 +102,28 @@ header nav a:hover {
   text-decoration: underline;
 }
 
+.textEButoonPadraoDoSite {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 80px;
+  height: 360px;
+}
+.textEButoonPadraoDoSite h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.textEButoonPadraoDoSite a {
+  width: 200px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+.textEButoonPadraoDoSite a:hover {
+  background-color: rgba(255, 0, 0, 0.849);
+}
+
 footer {
   height: 450px;
   background-color: black;
@@ -123,6 +145,12 @@ footer .divAdress {
 }
 
 @media screen and (max-width: 540px) {
+  .textEButoonPadraoDoSite {
+    padding: 0 15px;
+  }
+  .textEButoonPadraoDoSite h2 {
+    font-size: 25px;
+  }
   footer {
     padding-left: 0;
     flex-direction: column;
@@ -147,4 +175,4 @@ footer .divAdress {
   box-sizing: border-box;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/signUp/partials/h1.scss%22,%22../../../scss/pages/signUp/partials/_formulario.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;;ACLJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;;AC5ChB;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;;AAMhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;AC/FZ;EACI;EACA;EACA;EACA%22,%22file%22:%22signUp.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/signUp/partials/h1.scss%22,%22../../../scss/pages/signUp/partials/_formulario.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;;ACLJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;;AC5ChB;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAIR;EACI;EACA;;AAEA;EACI;EACA;EACA;;AAEA;EACI;;;AAMhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;AAKhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;AChIZ;EACI;EACA;EACA;EACA%22,%22file%22:%22signUp.css%22%7D */

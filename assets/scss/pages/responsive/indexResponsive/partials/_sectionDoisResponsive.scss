@@ -7,6 +7,12 @@
         }
 
         .centro{
+            justify-content: center;
+
+            p{
+                text-align: center;
+            }
+
             .cardio{
                 background-image: url(/assets/images/pages/responsive/index/imgCardioResponsive.webp);
                 width: 350px;
@@ -14,11 +20,19 @@
             }
 
             .airYoga{
+                background-image: url(/assets/images/pages/responsive/index/imgAirYogaResponsive.webp);
                 width: 350px;
                 height: 500px;
             }
 
             .lifting{
+                background-image: url(/assets/images/pages/responsive/index/imgLiftingResponsive.webp);
+                width: 350px;
+                height: 500px;
+            }
+
+            .pressBack{
+                background-image: url(/assets/images/pages/responsive/index/imgPressEBackResponsive.webp);
                 width: 350px;
                 height: 500px;
             }
