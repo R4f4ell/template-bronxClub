@@ -1,0 +1,24 @@
+@media screen and (max-width:540px) {
+    .sectionDois{
+        padding: 0;
+        flex-direction: column;
+
+        .containerTres, .containerQuatro{
+            text-align: center;
+            width: 100%;
+            margin: 30px 0;
+
+            .dia{
+                justify-content: center;
+                
+                p{
+                    font-size: 30px;
+                }
+            }
+
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}

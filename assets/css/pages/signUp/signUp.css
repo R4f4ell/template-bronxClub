@@ -217,4 +217,38 @@ footer .divAdress {
   box-sizing: border-box;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/signUp/partials/h1.scss%22,%22../../../scss/pages/signUp/partials/_formulario.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;;ACLJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;;AC5ChB;EACI;IACI;IACA;;EAGJ;IACI;IACA;;;AAKR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAIR;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;;;AAKZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;AAKhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;;EAKI;IACI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;IACA;;EAIR;IACI;;EAGJ;IACI;;EAMZ;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;ACxLZ;EACI;EACA;EACA;EACA%22,%22file%22:%22signUp.css%22%7D */
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 45px;
+    padding: 40px 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  .formulario {
+    padding: 0 20px;
+    justify-content: center;
+  }
+  .formulario form div {
+    align-items: center;
+    max-width: 100vw;
+  }
+  .formulario form div label {
+    align-self: flex-start;
+    margin-left: 27px;
+    font-size: 20px;
+  }
+  .formulario form div input {
+    font-size: 18px;
+    height: 50px;
+    width: 90%;
+  }
+  .formulario form div textarea {
+    width: 90%;
+  }
+  .formulario form div button {
+    font-size: 22px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/signUp/partials/_h1.scss%22,%22../../../scss/pages/signUp/partials/_formulario.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/pages/responsive/signUpResponsive/partials/_h1.scss%22,%22../../../scss/pages/responsive/signUpResponsive/partials/_formulario.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;;ACLJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;;AC5ChB;EACI;IACI;IACA;;EAGJ;IACI;IACA;;;AAKR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAIR;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;;;AAKZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;AAKhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;;EAKI;IACI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;IACA;;EAIR;IACI;;EAGJ;IACI;;EAMZ;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;ACxLZ;EACI;EACA;EACA;EACA;;;ACJJ;EACI;IACI;IACA;IACA;;;ACJR;EACI;IACI;IACA;;EAEA;IACI;IACA;;EAEA;IACI;IACA;IACA;;EAGJ;IACI;IACA;IACA;;EAGJ;IACI;;EAGJ;IACI%22,%22file%22:%22signUp.css%22%7D */

@@ -219,4 +219,50 @@ footer .divAdress {
   box-sizing: border-box;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/schedule/partials/_sectionUm.scss%22,%22../../../scss/pages/schedule/partials/_sectionDois.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;EACA;;;AC5BhB;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;EACA;;;ACpBhB;EACI;IACI;IACA;;EAGJ;IACI;IACA;;;AAKR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAIR;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;;;AAKZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;AAKhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;;EAKI;IACI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;IACA;;EAIR;IACI;;EAGJ;IACI;;EAMZ;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;ACxLZ;EACI;EACA;EACA;EACA%22,%22file%22:%22schedule.css%22%7D */
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 45px;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .sectionUm {
+    padding: 0;
+    flex-direction: column;
+  }
+  .sectionUm .containerUm, .sectionUm .containerDois {
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+  }
+  .sectionUm .containerUm .dia, .sectionUm .containerDois .dia {
+    justify-content: center;
+  }
+  .sectionUm .containerUm .dia p, .sectionUm .containerDois .dia p {
+    font-size: 30px;
+  }
+  .sectionUm .containerUm p, .sectionUm .containerDois p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .sectionDois {
+    padding: 0;
+    flex-direction: column;
+  }
+  .sectionDois .containerTres, .sectionDois .containerQuatro {
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+  }
+  .sectionDois .containerTres .dia, .sectionDois .containerQuatro .dia {
+    justify-content: center;
+  }
+  .sectionDois .containerTres .dia p, .sectionDois .containerQuatro .dia p {
+    font-size: 30px;
+  }
+  .sectionDois .containerTres p, .sectionDois .containerQuatro p {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/schedule/partials/_sectionUm.scss%22,%22../../../scss/pages/schedule/partials/_sectionDois.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/pages/responsive/scheduleResponsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/scheduleResponsive/partials/_sectionDoisResponsive.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAQ;ACAR;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;EACA;;;AC5BhB;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI;EACA;;;ACpBhB;EACI;IACI;IACA;;EAGJ;IACI;IACA;;;AAKR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;;AAIR;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;;;AAKZ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;;;AAKhB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;;AAKR;EACI;IACI;;EAKI;IACI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;IACA;;EAIR;IACI;;EAGJ;IACI;;EAMZ;IACI;;EAEA;IACI;;EAIR;IACI;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGJ;IACI;IACA;;;ACxLZ;EACI;EACA;EACA;EACA;;;ACJJ;EACI;IACI;IACA;IACA;;EAGJ;IACI;IACA;;EAEA;IACI;IACA;IACA;;EAEA;IACI;;EAEA;IACI;;EAIR;IACI;;;ACzBhB;EACI;IACI;IACA;;EAEA;IACI;IACA;IACA;;EAEA;IACI;;EAEA;IACI;;EAIR;IACI%22,%22file%22:%22schedule.css%22%7D */
